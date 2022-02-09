@@ -27,8 +27,8 @@ public class Lambdas {
 
     //exercise 4
     public void getListWordOddLength(List<String> list){
-        List<String> newList=list.stream().filter(x->(x.length()%2==0)).collect(Collectors.toList());
-         Print.printList(newList);
+        list=list.stream().filter(x->(x.length()%2==0)).collect(Collectors.toList());
+         Print.printList(list);
     }
     //exercise 5
     public void getListWordUpperCase(List<String> list){
