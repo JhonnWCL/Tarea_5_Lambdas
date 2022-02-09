@@ -11,7 +11,7 @@ public class Print {
         System.out.println(Colors.Blue+"Given a list of strings, write a method that returns a list of all string that start\n" +
                 "with the letter 'a' (lower case) and have exactly 3 letters\n" +
                 "list data-> \"alcohol\", \"ala\", \"aword\",\"a  l   r\",\"a123;sd  % .\",\"a2 ls\"\n" +
-                Colors.Red+"Ouput:"+Colors.Default);
+                Colors.Red+"Output:"+Colors.Default);
         list.forEach(System.out::println);
     }
     public static void printDescription2(String result){
@@ -20,14 +20,14 @@ public class Print {
                 "Each element should be preced by the letter 'e' if the number is even and preceded by the letter\n"+
                 "'o' if the number is odd For example, if the input list is (3,44) the ouput should be 'o3,e44'\n" +
                 "list data -> 2, 21, 5, 2, 11");
-        System.out. println(Colors.Red+"Ouput:\n"+Colors.Default+result);
+        System.out. println(Colors.Red+"Output:\n"+Colors.Default+result);
     }
     public static void printDescription3(String result){
         printDelimiter(3);
         System.out.println(Colors.Blue+"Create a String that consists of the first letter of \n" +
                 "each word in the list of String provided " +
                 "list data -> \"hola\", \"mundo\", \"java\"");
-        System.out. println(Colors.Red+"Ouput:\n"+Colors.Default+result);
+        System.out. println(Colors.Red+"Output:\n"+Colors.Default+result);
     }
 
     public static void printDescription4(){
@@ -35,7 +35,7 @@ public class Print {
         System.out.println(Colors.Blue+"Remove the words that have odd lengths from the\n"+
                 "list. change the input list\n"+
                 "list data -> \"holas\", \"como\", \"esta\",\"usted\"\n" +
-                Colors.Red+"Ouput:"+Colors.Default);
+                Colors.Red+"Output:"+Colors.Default);
     }
 
     public static void printDescription5(){
@@ -43,7 +43,7 @@ public class Print {
         System.out.println(Colors.Blue+"Replace every word in the list with its upper case equivalent. Change the\n"+
                 "input list list is not empty. Strings in list are not null or the empty string\n"+
                 "list data -> \"holA\", \"mundo\", \"Cbba\"\n" +
-                Colors.Red+"Ouput:"+Colors.Default);
+                Colors.Red+"Output:"+Colors.Default);
     }
 
     public static void printDescription6(String result){
@@ -51,7 +51,7 @@ public class Print {
         System.out.println(Colors.Blue+"Convert every key-value pair of the map into a string and append them all into a\n"+
                 "single string , in iteration order. The input is never empty and the keys are not null or the empty string\n"+
                 "list data -> <\"Key1\",1> <\"Key3\",3> <\"Key2\",2> <\"Key4\",4>");
-                System.out. println(Colors.Red+"Ouput:\n"+Colors.Default+result);
+                System.out. println(Colors.Red+"Output:\n"+Colors.Default+result);
     }
 
     public static void printDescription6(){
@@ -60,7 +60,7 @@ public class Print {
                 "'out' argument instead of System.out. The list is never null or empty or contains null\n"+
                 "The printed numbers must be separated by a white-space character\n"+
                 "list data -> 2,21,5,2,11");
-        System.out. println(Colors.Red+"Ouput:"+Colors.Default);
+        System.out. println(Colors.Red+"Output:"+Colors.Default);
     }
 
     private static void printDelimiter(int n){
